@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-var $ = require('../node_modules/jquery/dist/jquery');
+var $ = require('jquery');
 
 require(['./calculator.js'], function(calculator) {
     var number1 = $('#number1'),
