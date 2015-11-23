@@ -1,8 +1,6 @@
 ﻿'use strict';
 
-var $ = require('jquery');
-
-require(['./calculator.js'], function(calculator) {
+require(['jquery', './calculator.js'], function($, calculator) {
     var number1 = $('#number1'),
         number2 = $('#number2');
 
